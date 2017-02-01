@@ -1,0 +1,73 @@
+Write a short paragraph (or two) describing the project you like to create. 
+Feel free to provide a list of features. The project should be a web 
+application. Once you create the proposal, drop an email to Venkat asking him 
+to review your proposal. He will let you know if more details are needed, if 
+scope has to be changed. The final demo by your team will be in class on July 
+7th.
+
+Demo: July 7th in class
+Final code review: July 7th
+Project repository access available until 11:59PM July 9th
+
+------------------------------------------------------------------------------
+
+Please write your proposal here.
+
+Synopsis:
+-----------
+We are planning to create Team task management system. This is a basic shared to do list.
+
+App Name:
+---------
+DoIt
+
+Technology:
+------------
+Backend: MongoDb
+Server-Side: Express
+ClientSide: AngularJS, CSS
+
+In Scope Functionalities:
+---------------------------
+Team Management
+----------------
+ 1. Add teammates - this page will allow user to add teammates
+ 2. Edit teammates 
+ 3. Disable teammates - make user Inactive
+
+Task Management
+-----------------
+ 4. Create task
+ 5. Edit task - change time, mark task completed
+ 6. Delete task
+
+7. Show all task in a layout
+
+Page Flow:
+-------------
+There will be three pages in our application.
+On Team Management screen all existing team members will be list and user can go ahead create\edit team members details. A team member can be made inactive so that no further task can be created for them. The system will only allow soft deletion of user as deleted user detail might be required for show historic tasks.
+
+In the Task Management screen a user will have the option to add, delete or edit the task details. A task can be created for a user or for a group of users (shared task). Completion status of existing task can be captured in the Task Management screen.
+
+The final screen will be a tabular representation of all the tasks for a month and its related details will be displayed. This screen will provide the user a calendar like view with tasks on it.
+
+Out of Scope:
+---------------
+1. User Creation and Login
+2. Email notification
+3. Integration with third party calendar
+
+Total [30]: 28
+Your program works [10 pts]:
+
+Code quality [5 pts]:
+
+Design quality [5 pts]:
+
+Code coverage through automated tests [5 pts]:
+Server-side tests [2]:
+Client-side tests [2]:
+Integration tests [1]: -1
+
+Demo [5 pts]: -1
